@@ -14,9 +14,11 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.11",
     "bootstrap": "^5.1.3",
     "gatsby": "^4.15.2",
     "react": "^18.1.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0"
   },
   "devDependencies": {

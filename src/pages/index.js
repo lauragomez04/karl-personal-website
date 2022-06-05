@@ -1,11 +1,13 @@
 import React from "react"
+import Layout from "./components/Layout"
 import "bootstrap/dist/css/bootstrap.min.css"
-import Navbar from "./components/Navbar"
+import "@fontsource/montserrat"
+import "./index.css"
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <Layout>
+      <h1>Hello world</h1>
+    </Layout>
   )
 }

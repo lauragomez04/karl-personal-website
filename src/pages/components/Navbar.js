@@ -1,50 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
+import "../components/Navbar.css"
+import { Navbar, Container, Nav } from "react-bootstrap"
 
-export default function Navbar() {
+export default function Navigation() {
   return (
-    <div className="Navbar">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" href="#">
-          Karl Wienhold
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item active">
-              <Link className="nav-link" href="#">
-                Research &amp; Projects{" "}
-                <span className="sr-only">(current)</span>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#">
-                My Content
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#">
-                What I'm Open to
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#">
-                Contact Me
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">KARL WIENHOLD</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#research-projects">
+              Research &amp; Projects
+            </Nav.Link>
+            <Nav.Link href="#content">My Content</Nav.Link>
+            <Nav.Link href="#open-to">What I'm Open to</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
