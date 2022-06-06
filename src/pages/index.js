@@ -1,12 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
-import "bootstrap/dist/css/bootstrap.min.css"
-import "@fontsource/montserrat"
 
 export default function Home() {
   return (
     <Layout>
-      <h1>Hello world</h1>
+      <section>
+        <h1>Karl Wienhold</h1>
+        <h2>PhD Economic Development</h2>
+      </section>
     </Layout>
   )
 }
