@@ -1,0 +1,20 @@
+.navbarBackground {
+  background-color: var(--background-color);
+}
+
+.name {
+  color: var(--primary-color) !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navLink {
+  color: var(--primary-color) !important;
+  font-weight: 00;
+  letter-spacing: 0.4px;
+  padding-left: 32px !important;
+}
+
+.navLink:hover {
+  color: var(--secondary-color) !important;
+}
