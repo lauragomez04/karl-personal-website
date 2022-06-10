@@ -13,8 +13,21 @@ body {
 
 /* hero styles */
 
-.heroImage h1 {
+.heroText {
   color: white;
+  display: inline-block;
+  position: absolute;
+  left: 140px;
+  top: 324px;
+}
+
+.heroText h1 {
+  font-size: 44px;
+  font-weight: 700;
   letter-spacing: 2px;
-  padding-left: 180px;
+}
+
+.heroText h2 {
+  font-size: 28px;
+  font-weight: 300;
 }
