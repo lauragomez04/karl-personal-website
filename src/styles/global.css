@@ -10,3 +10,11 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* hero styles */
+
+.heroImage h1 {
+  color: white;
+  letter-spacing: 2px;
+  padding-left: 180px;
+}
