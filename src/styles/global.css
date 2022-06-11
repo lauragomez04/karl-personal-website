@@ -31,3 +31,31 @@ body {
   font-size: 28px;
   font-weight: 300;
 }
+
+.icons {
+  align-items: center;
+  display: flex;
+}
+
+.linkedinIcon,
+.instagramIcon {
+  color: white;
+  padding-right: 12px;
+}
+
+.envelopeIcon {
+  color: white;
+}
+
+.linkedinIcon:hover,
+.instagramIcon:hover,
+.envelopeIcon:hover {
+  transform: scale(1.3);
+}
+
+.heroText hr {
+  color: white;
+  height: 1px;
+  opacity: 100%;
+  width: 427px;
+}

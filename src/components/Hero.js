@@ -33,9 +33,30 @@ const GbiBridged = () => {
       <div className="heroText">
         <h1>KARL WIENHOLD</h1>
         <h2>PhD Economic Development</h2>
-        <FontAwesomeIcon icon={faLinkedinIn} />
-        <FontAwesomeIcon icon={faInstagram} />
-        <FontAwesomeIcon icon={faEnvelope} />
+        <div className="icons">
+          <a
+            href="https://www.linkedin.com/in/karlwienhold/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon className="linkedinIcon" icon={faLinkedinIn} />
+          </a>
+          <a
+            href="https://www.instagram.com/cedroalto/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon className="instagramIcon" icon={faInstagram} />
+          </a>
+          <a
+            href="mailto:kwienhold@gmail.com "
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon className="envelopeIcon" icon={faEnvelope} />
+          </a>
+          <hr />
+        </div>
       </div>
       <div
         style={{
