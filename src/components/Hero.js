@@ -7,6 +7,13 @@ import BackgroundImage from "gatsby-background-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
+import {
+  heroText,
+  icons,
+  linkedinIcon,
+  instagramIcon,
+  envelopeIcon,
+} from "../styles/hero.module.css"
 
 const GbiBridged = () => {
   const { placeholderImage } = useStaticQuery(
@@ -30,30 +37,30 @@ const GbiBridged = () => {
       preserveStackingContext
       className="heroImage"
     >
-      <div className="heroText">
+      <div className={heroText}>
         <h1>KARL WIENHOLD</h1>
         <h2>PhD Economic Development</h2>
-        <div className="icons">
+        <div className={icons}>
           <a
             href="https://www.linkedin.com/in/karlwienhold/"
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon className="linkedinIcon" icon={faLinkedinIn} />
+            <FontAwesomeIcon className={linkedinIcon} icon={faLinkedinIn} />
           </a>
           <a
             href="https://www.instagram.com/cedroalto/"
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon className="instagramIcon" icon={faInstagram} />
+            <FontAwesomeIcon className={instagramIcon} icon={faInstagram} />
           </a>
           <a
             href="mailto:kwienhold@gmail.com "
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon className="envelopeIcon" icon={faEnvelope} />
+            <FontAwesomeIcon className={envelopeIcon} icon={faEnvelope} />
           </a>
           <hr />
         </div>

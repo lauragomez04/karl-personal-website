@@ -1,0 +1,46 @@
+.heroText {
+  color: white;
+  display: inline-block;
+  position: absolute;
+  left: 140px;
+  top: 324px;
+}
+
+.heroText h1 {
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.heroText h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.icons {
+  align-items: center;
+  display: flex;
+}
+
+.linkedinIcon,
+.instagramIcon {
+  color: white;
+  padding-right: 12px;
+}
+
+.envelopeIcon {
+  color: white;
+}
+
+.linkedinIcon:hover,
+.instagramIcon:hover,
+.envelopeIcon:hover {
+  transform: scale(1.3);
+}
+
+.heroText hr {
+  color: white;
+  height: 1px;
+  opacity: 100%;
+  width: 427px;
+}
