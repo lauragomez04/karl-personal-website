@@ -1,3 +1,19 @@
 .whatImHereFor {
-  margin-left: 0px;
+  background-color: hsl(0, 0%, 93%);
+  padding-top: 140px;
+  padding-bottom: 108px;
+}
+
+.whatImHereFor h3 {
+  color: var(--primary-color);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.experienceBtn {
+  background-color: var(--highlight-color);
+  border: none;
+  color: var(--primary-color);
+  margin-top: 32px;
+  padding: 12px 20px;
 }
