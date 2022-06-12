@@ -1,13 +1,37 @@
 .whatImHereFor {
   background-color: hsl(0, 0%, 93%);
-  padding-top: 140px;
-  padding-bottom: 108px;
+  padding-top: 120px;
+  padding-bottom: 88px;
 }
 
 .whatImHereFor h3 {
   color: var(--primary-color);
+  display: inline-block;
   font-size: 48px;
   font-weight: 700;
+  position: relative;
+  transform: translateX(64px);
+}
+
+.whatImHereFor h3:before {
+  content: "";
+  display: block;
+  background-color: var(--highlight-color);
+  position: absolute;
+  height: 96px;
+  width: 16px;
+  transform: translateY(10px) translateX(-64px);
+}
+
+.whatImHereFor ul {
+  color: var(--paragraph-color);
+  list-style: none;
+  padding-left: 0px;
+}
+
+.check {
+  color: var(--secondary-color);
+  padding-right: 16px;
 }
 
 .experienceBtn {
@@ -16,4 +40,10 @@
   color: var(--primary-color);
   margin-top: 32px;
   padding: 12px 20px;
+}
+
+.experienceBtn:hover {
+  background-color: var(--primary-color);
+  color: var(--highlight-color);
+  transition: all 200ms ease-in-out;
 }
