@@ -7,8 +7,9 @@
 .whatImHereFor h3 {
   color: var(--primary-color);
   display: inline-block;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 700;
+  letter-spacing: 1px;
   position: relative;
   transform: translateX(64px);
 }
@@ -18,9 +19,9 @@
   display: block;
   background-color: var(--highlight-color);
   position: absolute;
-  height: 96px;
+  height: 88px;
   width: 16px;
-  transform: translateY(10px) translateX(-64px);
+  transform: translateY(8px) translateX(-60px);
 }
 
 .whatImHereFor ul {
