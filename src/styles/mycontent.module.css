@@ -1,0 +1,17 @@
+.myContent {
+  background-color: rgba(236, 236, 236, 0.4);
+  padding-top: 120px;
+  padding-bottom: 88px;
+}
+
+.myContent h3 {
+  color: var(--primary-color);
+}
+
+.myContent h3:before {
+  height: 44px;
+}
+
+.contentTabs {
+  margin-top: 120px;
+}

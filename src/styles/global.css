@@ -11,3 +11,22 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* section titles */
+
+h3 {
+  display: inline-block;
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transform: translateX(64px);
+}
+
+h3:before {
+  content: "";
+  display: block;
+  background-color: var(--highlight-color);
+  position: absolute;
+  width: 16px;
+  transform: translateY(8px) translateX(-60px);
+}
