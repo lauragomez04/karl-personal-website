@@ -6,6 +6,7 @@
 
 .whatImHereFor h3 {
   color: var(--primary-color);
+  padding-left: 64px;
 }
 
 .whatImHereFor h3:before {

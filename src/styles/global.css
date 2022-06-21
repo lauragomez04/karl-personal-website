@@ -19,7 +19,6 @@ h3 {
   font-size: 44px;
   font-weight: 700;
   letter-spacing: 1px;
-  transform: translateX(64px);
 }
 
 h3:before {

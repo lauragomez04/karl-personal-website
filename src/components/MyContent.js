@@ -15,10 +15,10 @@ export default function MyContent() {
             <h3>MY CONTENT</h3>
             <div className={contentTabs}>
               <Tabs
-                fill
+                justify
                 defaultActiveKey="book"
                 id="uncontrolled-tab-example"
-                className="mb-3 tabs"
+                className="mb-3"
               >
                 <Tab eventKey="book" title="Book">
                   <Book />
