@@ -42,3 +42,12 @@ h4 {
   background-color: rgba(174, 216, 205, 0.3);
   border: rgba(174, 216, 205, 0.3);
 }
+
+/* WhatImOpenTo component styles for active tabs */
+
+.nav-pills .nav-item.show .nav-link,
+.nav-pills .nav-link.active.active {
+  background-color: rgba(174, 216, 205, 0.5);
+  color: var(--primary-color);
+  border-left: 4px solid #aed8cd;
+}

@@ -1,0 +1,24 @@
+.section4 {
+  padding-top: 120px;
+  padding-bottom: 88px;
+}
+
+.section4 h3 {
+  color: var(--primary-color);
+  margin-bottom: 120px;
+  padding-left: 60px;
+}
+
+.section4 h3:before {
+  height: 44px;
+}
+
+.section4 a {
+  color: var(--secondary-color);
+}
+
+.section4 a:hover {
+  color: var(--primary-color);
+  background-color: rgba(174, 216, 205, 0.5);
+  cursor: pointer;
+}
