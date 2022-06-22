@@ -18,7 +18,7 @@ export default function MyContent() {
                 justify
                 defaultActiveKey="book"
                 id="uncontrolled-tab-example"
-                className="mb-3"
+                className="mb-5"
               >
                 <Tab tabClassName="activeColor" eventKey="book" title="Book">
                   <Book />

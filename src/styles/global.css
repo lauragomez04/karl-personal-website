@@ -5,7 +5,7 @@
   --secondary-color: #395170;
   --highlight-color: #aed8cd;
   --background-color: #ececec;
-  --paragraph-color: #4c4c4d;
+  --paragraph-color: #5d5d5e;
 }
 
 body {
@@ -28,6 +28,10 @@ h3:before {
   position: absolute;
   width: 16px;
   transform: translateY(8px) translateX(-60px);
+}
+
+h4 {
+  color: var(--primary-color);
 }
 
 /* MyContent component styles for active tabs */

@@ -25,11 +25,11 @@
   border-bottom: 4px solid rgba(174, 216, 205, 0.3);
 }
 
-.contentTabs button {
+.contentTabs ul li button {
   color: var(--secondary-color);
 }
 
-.contentTabs button:hover {
+.contentTabs ul li button:hover {
   color: var(--secondary-color);
   background-color: rgba(174, 216, 205, 0.3);
   border: none;
@@ -37,3 +37,26 @@
 }
 
 /* MyContent component styles for active tabs are in global.css */
+
+/* book tab styles*/
+
+.bookParagraph {
+  font-weight: 400;
+  margin-top: 28px;
+  letter-spacing: 0.1px;
+  line-height: 28px;
+}
+
+.bookBtn {
+  background-color: var(--highlight-color);
+  border: none;
+  color: var(--primary-color);
+  margin-top: 20px;
+  padding: 12px 16px;
+}
+
+.bookBtn:hover {
+  background-color: var(--primary-color);
+  color: var(--highlight-color);
+  transition: all 200ms ease-in-out;
+}
