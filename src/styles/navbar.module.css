@@ -10,7 +10,6 @@
 
 .navLink {
   color: var(--primary-color) !important;
-  font-weight: 00;
   letter-spacing: 0.4px;
   padding-left: 32px !important;
 }

@@ -4,6 +4,7 @@ import Hero from "../components/Hero"
 import WhatImHereFor from "../components/WhatImHereFor"
 import Projects from "../components/Projects"
 import MyContent from "../components/MyContent"
+import WhatImOpenTo from "../components/WhatImOpenTo"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <WhatImHereFor />
       <Projects />
       <MyContent />
+      <WhatImOpenTo />
     </Layout>
   )
 }

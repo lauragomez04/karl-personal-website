@@ -20,16 +20,28 @@ export default function MyContent() {
                 id="uncontrolled-tab-example"
                 className="mb-3"
               >
-                <Tab eventKey="book" title="Book">
+                <Tab tabClassName="activeColor" eventKey="book" title="Book">
                   <Book />
                 </Tab>
-                <Tab eventKey="youtube" title="Youtube">
+                <Tab
+                  tabClassName="activeColor"
+                  eventKey="youtube"
+                  title="Youtube"
+                >
                   <Youtube />
                 </Tab>
-                <Tab eventKey="articles" title="Articles">
+                <Tab
+                  tabClassName="activeColor"
+                  eventKey="articles"
+                  title="Articles"
+                >
                   <Articles />
                 </Tab>
-                <Tab eventKey="course" title="Course">
+                <Tab
+                  tabClassName="activeColor"
+                  eventKey="course"
+                  title="Course"
+                >
                   <Course />
                 </Tab>
               </Tabs>

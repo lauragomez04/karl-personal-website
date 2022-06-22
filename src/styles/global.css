@@ -29,3 +29,12 @@ h3:before {
   width: 16px;
   transform: translateY(8px) translateX(-60px);
 }
+
+/* MyContent component styles for active tabs */
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active.activeColor {
+  color: var(--primary-color);
+  background-color: rgba(174, 216, 205, 0.3);
+  border: rgba(174, 216, 205, 0.3);
+}
