@@ -1,6 +1,8 @@
 import React from "react"
 import { Tab, Row, Col, Nav, Container } from "react-bootstrap"
-import { section4 } from "../styles/whatimopento.module.css"
+import { section4, tabText, arrow } from "../styles/whatimopento.module.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 export default function WhatImOpenTo() {
   return (
@@ -29,89 +31,115 @@ export default function WhatImOpenTo() {
               </Nav>
             </Col>
             <Col sm={7}>
-              <Tab.Content>
+              <Tab.Content className={tabText}>
                 <Tab.Pane eventKey="first">
                   <ul>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                   </ul>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
                   <ul>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                   </ul>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <ul>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                   </ul>
                 </Tab.Pane>
                 <Tab.Pane eventKey="fourth">
                   <ul>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                   </ul>
                 </Tab.Pane>
                 <Tab.Pane eventKey="fifth">
                   <ul>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                     <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do .
+                      sed do.
                     </li>
                   </ul>
                 </Tab.Pane>

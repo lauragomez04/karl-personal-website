@@ -22,3 +22,20 @@
   background-color: rgba(174, 216, 205, 0.5);
   cursor: pointer;
 }
+
+/* find styles for active pills in global.css */
+
+.tabText {
+  color: var(--paragraph-color);
+  letter-spacing: 0.1px;
+  line-height: 28px;
+}
+
+.tabText ul {
+  list-style: none;
+}
+
+.tabText .arrow {
+  color: var(--highlight-color);
+  padding-right: 16px;
+}
