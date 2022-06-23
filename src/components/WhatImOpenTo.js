@@ -11,10 +11,8 @@ export default function WhatImOpenTo() {
           <Row>
             <Col sm={3}>
               <Nav variant="pills" className="flex-column">
-                <Nav.Item>
-                  <Nav.Link activeClassName="active" eventKey="first">
-                    Research
-                  </Nav.Link>
+                <Nav.Item className="active">
+                  <Nav.Link eventKey="first">Research</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">Consulting</Nav.Link>
