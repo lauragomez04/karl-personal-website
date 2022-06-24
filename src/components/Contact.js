@@ -13,7 +13,7 @@ import { faCalendar } from "@fortawesome/free-regular-svg-icons"
 
 export default function Contact() {
   return (
-    <section className={contactSection}>
+    <section className={contactSection} id="contact">
       <Container>
         <h3>SAY HELLO</h3>
         <Row>

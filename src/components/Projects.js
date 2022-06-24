@@ -6,7 +6,7 @@ import { projectsData } from "./ProjectsData"
 
 export default function Projects() {
   return (
-    <section className={projects}>
+    <section className={projects} id="research-projects">
       <h3>RESEARCH &amp; PROJECTS</h3>
       <Container className={cards}>
         <Row>

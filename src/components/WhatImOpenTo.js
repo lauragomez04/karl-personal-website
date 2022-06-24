@@ -6,7 +6,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 export default function WhatImOpenTo() {
   return (
-    <section className={section4}>
+    <section className={section4} id="open-to">
       <Container>
         <h3>WHAT I'M OPEN TO</h3>
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">

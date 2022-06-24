@@ -8,7 +8,7 @@ import Course from "./Course"
 
 export default function MyContent() {
   return (
-    <section className={myContent}>
+    <section className={myContent} id="content">
       <Container>
         <Row>
           <Col>
