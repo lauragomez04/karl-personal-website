@@ -57,14 +57,15 @@ form {
   font-weight: 300;
 }
 
+.formEmail {
+  margin-left: 32px;
+}
+
 .formName,
 .formEmail,
 .formMessage:focus {
   color: white;
-}
-
-.formEmail {
-  margin-left: 32px;
+  outline: none;
 }
 
 .formMessage {
