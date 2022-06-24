@@ -1,5 +1,5 @@
 import React from "react"
-import { footerSection } from "../styles/footer.module.css"
+import { footerSection, copyRight } from "../styles/footer.module.css"
 import { Container, Row, Col, Nav } from "react-bootstrap"
 
 export default function Footer() {
@@ -9,10 +9,13 @@ export default function Footer() {
         <hr />
         <Row>
           <Col sm={5}>
-            <p>
+            <p className={copyRight}>
               &copy; {new Date().getFullYear()} <span>Karl Wienhold</span>
             </p>
-            <small>Design &amp; Development by Laura Gómez</small>
+            <small>
+              Design &amp; Development by{" "}
+              <a href="https://lauragomezcodes.com">Laura Gómez</a>
+            </small>
           </Col>
           <Col sm={7}>
             <Nav className="justify-content-end">

@@ -25,8 +25,30 @@ small {
   opacity: 80%;
   padding-top: 0px;
   padding-right: 0px;
+  text-decoration: none;
 }
 
 .footerSection a:hover {
   color: var(--highlight-color);
+}
+
+@media (max-width: 960px) {
+  .footerSection .copyRight,
+  small,
+  a {
+    font-size: 8px;
+  }
+
+  .footerSection .copyRight,
+  small {
+    line-height: 4px;
+  }
+
+  .footerSection .copyRight {
+    padding-top: 12px;
+  }
+
+  .footerSection a {
+    padding-top: 16px;
+  }
 }
