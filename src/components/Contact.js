@@ -1,6 +1,12 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import { contactSection, contactIcons } from "../styles/contact.module.css"
+import {
+  contactSection,
+  contactIcons,
+  formName,
+  formEmail,
+  formMessage,
+} from "../styles/contact.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import { faCalendar } from "@fortawesome/free-regular-svg-icons"
@@ -37,7 +43,22 @@ export default function Contact() {
             </div>
           </Col>
           <Col sm={7}>
-            <form></form>
+            <form>
+              <input className={formName} type="text" placeholder="Your Name" />
+              <input
+                className={formEmail}
+                type="text"
+                placeholder="Your Email"
+              />
+              <div className="form-row">
+                <textarea
+                  className={formMessage}
+                  name="message"
+                  placeholder="Message"
+                />
+              </div>
+              <button>Send Message</button>
+            </form>
           </Col>
         </Row>
       </Container>
