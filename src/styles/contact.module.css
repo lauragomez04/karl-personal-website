@@ -1,0 +1,41 @@
+.contactSection {
+  background-color: var(--primary-color);
+  padding-top: 120px;
+  padding-bottom: 88px;
+}
+
+.contactSection h3 {
+  color: white;
+  margin-bottom: 120px;
+  padding-left: 60px;
+}
+
+.contactSection h3:before {
+  height: 44px;
+}
+
+.contactSection p {
+  color: white;
+  letter-spacing: 0.1px;
+  line-height: 28px;
+}
+
+.contactIcons {
+  color: white;
+  font-size: 20px;
+  line-height: 52px;
+  margin-top: 68px;
+}
+
+.contactSection a {
+  border-bottom: 1px solid var(--highlight-color);
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.contactSection a:hover {
+  color: var(--highlight-color);
+}

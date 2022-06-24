@@ -5,6 +5,7 @@ import WhatImHereFor from "../components/WhatImHereFor"
 import Projects from "../components/Projects"
 import MyContent from "../components/MyContent"
 import WhatImOpenTo from "../components/WhatImOpenTo"
+import Contact from "../components/Contact"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Projects />
       <MyContent />
       <WhatImOpenTo />
+      <Contact />
     </Layout>
   )
 }
