@@ -25,6 +25,13 @@ export default function MyContent() {
                 </Tab>
                 <Tab
                   tabClassName="activeColor"
+                  eventKey="course"
+                  title="Course"
+                >
+                  <Course />
+                </Tab>
+                <Tab
+                  tabClassName="activeColor"
                   eventKey="youtube"
                   title="Youtube"
                 >
@@ -36,13 +43,6 @@ export default function MyContent() {
                   title="Articles"
                 >
                   <Articles />
-                </Tab>
-                <Tab
-                  tabClassName="activeColor"
-                  eventKey="course"
-                  title="Course"
-                >
-                  <Course />
                 </Tab>
               </Tabs>
             </div>

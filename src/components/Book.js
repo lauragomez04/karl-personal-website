@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Button } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import { bookBtn, bookParagraph } from "../styles/mycontent.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -15,21 +15,27 @@ export default function Book() {
             />
           </Col>
           <Col>
-            <h4>Cheap Coffee Book</h4>
+            <h4>Cheap Coffee: Behind the Curtain of the Global Coffee Trade</h4>
             <p className={bookParagraph}>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est."
-              <br />
-              <br />
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est."
+              The green coffee value chain is broken. This book provides a broad
+              explanation of the economics, mechanics, and power structures that
+              define the industry today. It is a readable and digestible
+              synthesis of thousands of pages of academic literature and expert
+              interviews from disciplines ranging from economics to anthropology
+              and from environmental science to history. Change, restructuring,
+              and conscientious participation from all stakeholders are needed
+              if coffee farming is to be a viable livelihood for the next
+              generation and part of the solution to the climate crisis that is
+              upon us.
             </p>
-            <Button className={bookBtn}>Buy Book</Button>
+            <a
+              href="https://shop.roastmagazine.com/collections/cheap-coffee/products/cheap-coffee-behind-the-curtain-of-the-global-coffee-trade"
+              target="_blank"
+              rel="noreferrer"
+              className={bookBtn}
+            >
+              Order Book
+            </a>
           </Col>
         </Row>
       </Container>
