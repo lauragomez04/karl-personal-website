@@ -27,31 +27,31 @@ export default function WhatImHereFor() {
                 <span className={check}>
                   <FontAwesomeIcon icon={faCheck} />
                 </span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
               <li>
                 <span className={check}>
                   <FontAwesomeIcon icon={faCheck} />
                 </span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
               <li>
                 <span className={check}>
                   <FontAwesomeIcon icon={faCheck} />
                 </span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
               <li>
                 <span className={check}>
                   <FontAwesomeIcon icon={faCheck} />
                 </span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
               <li>
                 <span className={check}>
                   <FontAwesomeIcon icon={faCheck} />
                 </span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
               <Button className={experienceBtn}>
                 My Experience{" "}

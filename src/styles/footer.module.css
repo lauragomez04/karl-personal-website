@@ -1,6 +1,8 @@
 .footerSection {
   background-color: var(--primary-color);
   padding-bottom: 44px;
+  padding-left: 84px;
+  padding-right: 84px;
 }
 
 .footerSection hr {
