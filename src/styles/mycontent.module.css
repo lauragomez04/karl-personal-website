@@ -38,7 +38,7 @@
 
 /* MyContent component styles for active tabs are in global.css */
 
-/* book tab styles*/
+/* general tab styles*/
 
 h4 {
   letter-spacing: 0.1px;
@@ -75,6 +75,18 @@ h4 {
 .courseBtn:focus {
   outline: none !important;
   box-shadow: none;
+}
+
+/* Youtube tab styles */
+
+.videoThumbnail {
+  width: 120px;
+  height: 90px;
+  margin-right: 20px;
+}
+
+.otherVideos {
+  display: flex;
 }
 
 @media (max-width: 960px) {
