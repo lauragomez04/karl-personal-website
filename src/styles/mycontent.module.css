@@ -46,16 +46,18 @@ h4 {
 }
 
 .bookParagraph,
-.courseParagraph {
+.courseParagraph,
+.youtubeParagraph {
   font-weight: 400;
-  margin-top: 32px;
-  margin-bottom: 28px;
+  margin-top: 20px;
+  margin-bottom: 32px;
   letter-spacing: 0.1px;
   line-height: 28px;
 }
 
 .bookBtn,
-.courseBtn {
+.courseBtn,
+.youtubeBtn {
   background-color: var(--highlight-color);
   border: none;
   border-radius: 0.25rem;
@@ -65,7 +67,8 @@ h4 {
 }
 
 .courseBtn:hover,
-.bookBtn:hover {
+.bookBtn:hover,
+.youtubeBtn:hover {
   background-color: var(--primary-color);
   color: var(--highlight-color);
   transition: all 200ms ease-in-out;
@@ -79,18 +82,37 @@ h4 {
 
 /* Youtube tab styles */
 
+iframe {
+  padding-bottom: 32px;
+}
+
 .videoThumbnail {
   width: 120px;
   height: 90px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .otherVideos {
   display: flex;
+  padding-bottom: 4px;
+  padding-left: 32px;
+}
+
+.otherVideos h5 {
+  font-size: 12px;
+}
+
+.otherVideos p {
+  font-size: 10px;
+  opacity: 70%;
 }
 
 @media (max-width: 960px) {
   .myContent h3:before {
     height: 69px;
+  }
+
+  .playlistColumn {
+    display: none;
   }
 }

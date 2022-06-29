@@ -1,9 +1,14 @@
 import React, { useState } from "react"
 import axios from "axios"
 
-import { Container, Row, Col } from "react-bootstrap"
-
-import { videoThumbnail, otherVideos } from "../styles/mycontent.module.css"
+import { Container, Row, Col, Ratio } from "react-bootstrap"
+import {
+  videoThumbnail,
+  otherVideos,
+  youtubeBtn,
+  youtubeParagraph,
+  playlistColumn,
+} from "../styles/mycontent.module.css"
 
 export default function Youtube() {
   const [videoData, setVideoData] = useState({ ready: false })
@@ -25,20 +30,36 @@ export default function Youtube() {
   if (videoData.ready) {
     return (
       <div className="Youtube">
-        <Container>
+        <Container fluid>
           <Row>
             <Col>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/2uCF2H_KLEI"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <Ratio aspectRatio="16x9">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/2uCF2H_KLEI"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </Ratio>
+              <h4>Cheap Coffee Channel</h4>
+              <p className={youtubeParagraph}>
+                The green coffee value chain is broken. Cheap Coffee provides a
+                broad explanation of the economics, mechanics, and power
+                structures that define the industry today.
+              </p>
+              <a
+                className={youtubeBtn}
+                href="https://www.youtube.com/c/CedroAltoCoffee"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Subscribe
+              </a>
             </Col>
-            <Col>
+            <Col className={playlistColumn}>
               {videoData.items.map(function (item, index) {
                 return (
                   <div className={otherVideos} key={index}>
