@@ -8,23 +8,20 @@ export default function Book() {
     <div className="Book">
       <Container>
         <Row>
-          <Col>
+          <Col sm={6}>
             <StaticImage
               src="../images/book.jpg"
               alt="Cheap Coffee Book cover"
             />
           </Col>
-          <Col>
+          <Col sm={6}>
             <h4>Cheap Coffee: Behind the Curtain of the Global Coffee Trade</h4>
             <p className={bookParagraph}>
               The green coffee value chain is broken. This book provides a broad
               explanation of the economics, mechanics, and power structures that
-              define the industry today. It is a readable and digestible
-              synthesis of thousands of pages of academic literature and expert
-              interviews from disciplines ranging from economics to anthropology
-              and from environmental science to history. Change, restructuring,
-              and conscientious participation from all stakeholders are needed
-              if coffee farming is to be a viable livelihood for the next
+              define the industry today. Change, restructuring, and
+              conscientious participation from all stakeholders are needed if
+              coffee farming is to be a viable livelihood for the next
               generation and part of the solution to the climate crisis that is
               upon us.
             </p>

@@ -1,7 +1,6 @@
 import React from "react"
 import { projects, cards, projectBtn } from "../styles/projects.module.css"
 import { Container, Row, Col, Card, Button } from "react-bootstrap"
-
 import { projectsData } from "./ProjectsData"
 
 export default function Projects() {
