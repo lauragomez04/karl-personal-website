@@ -57,7 +57,7 @@ export default function Youtube() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Subscribe
+                Watch More Videos
               </a>
             </Col>
             <Col className={playlistColumn}>
@@ -69,6 +69,7 @@ export default function Youtube() {
                     className={otherVideos}
                     key={item.id.videoId}
                     onClick={() => setVideoId(item.id.videoId)}
+                    onKeyDown={() => setVideoId(item.id.videoId)}
                   >
                     <img
                       className={videoThumbnail}
