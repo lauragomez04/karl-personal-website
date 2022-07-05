@@ -12,6 +12,7 @@ import {
 
 export default function Youtube() {
   const [videoData, setVideoData] = useState({ ready: false })
+  const [videoId, setVideoId] = useState("2uCF2H_KLEI")
 
   function handleResponse(response) {
     setVideoData({
@@ -37,7 +38,7 @@ export default function Youtube() {
                 <iframe
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/2uCF2H_KLEI"
+                  src={`https://www.youtube.com/embed/${videoId}`}
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -60,9 +61,15 @@ export default function Youtube() {
               </a>
             </Col>
             <Col className={playlistColumn}>
-              {videoData.items.map(function (item, index) {
+              {videoData.items.map(function (item) {
                 return (
-                  <div className={otherVideos} key={index}>
+                  <div
+                    role="button"
+                    tabIndex="0"
+                    className={otherVideos}
+                    key={item.id.videoId}
+                    onClick={() => setVideoId(item.id.videoId)}
+                  >
                     <img
                       className={videoThumbnail}
                       src={item.snippet.thumbnails.default.url}
