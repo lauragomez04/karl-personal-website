@@ -5,7 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "Karl Wienhold Portfolio",
+    description:
+      "Karl Wienhold PhD Economic development portfolio and content.",
+  },
+
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
