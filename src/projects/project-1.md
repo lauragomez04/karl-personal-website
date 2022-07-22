@@ -1,7 +1,7 @@
 ---
-name: "Project 1",
-description: "Short project description."
-image: "../images/projects/project-1.png"
+name: "Project 1"
+description: "Short project description of project1."
+image: "../images/project-images/project-1.png"
 link: "link to project"
 ---
 
