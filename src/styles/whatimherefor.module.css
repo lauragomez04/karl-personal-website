@@ -13,12 +13,6 @@
   height: 88px;
 }
 
-.whatImHereFor ul {
-  color: var(--paragraph-color);
-  list-style: none;
-  padding-left: 0px;
-}
-
 .check {
   color: var(--secondary-color);
   padding-right: 16px;
