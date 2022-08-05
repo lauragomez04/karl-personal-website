@@ -14,23 +14,31 @@ export default function WhatImOpenTo() {
             <Col sm={3}>
               <Nav variant="pills" className="flex-column">
                 <Nav.Item className="active">
-                  <Nav.Link eventKey="first">Research</Nav.Link>
+                  <Nav.Link eventKey="first">Research Interests</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Consulting</Nav.Link>
+                  <Nav.Link eventKey="second">
+                    Special Focus and Experience
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">Speaking</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="fourth">Teaching</Nav.Link>
+                  <Nav.Link eventKey="fourth">Consulting</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="fifth">Advisory</Nav.Link>
+                  <Nav.Link eventKey="fifth">Speaking</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="sixth">Teaching</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="seventh">Advisory</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Col>
-            <Col sm={7}>
+            <Col sm={9}>
               <Tab.Content className={tabText}>
                 <Tab.Pane eventKey="first">
                   <ul>
@@ -38,22 +46,40 @@ export default function WhatImOpenTo() {
                       <span className={arrow}>
                         <FontAwesomeIcon icon={faArrowRight} />
                       </span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do.
+                      Global value chains, esp. social relations in and
+                      economics of
                     </li>
                     <li>
                       <span className={arrow}>
                         <FontAwesomeIcon icon={faArrowRight} />
                       </span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do.
+                      Political economy of trade relations
                     </li>
                     <li>
                       <span className={arrow}>
                         <FontAwesomeIcon icon={faArrowRight} />
                       </span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do.
+                      International trade economics in a development context
+                    </li>
+                    <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
+                      Cooperation, solidarity movements and post-development
+                      perspectives
+                    </li>
+                    <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
+                      Quantitative approaches to development studies
+                    </li>
+                    <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
+                      Particular focus on the above in Global South contexts and
+                      agricultural applications
                     </li>
                   </ul>
                 </Tab.Pane>
@@ -63,15 +89,31 @@ export default function WhatImOpenTo() {
                       <span className={arrow}>
                         <FontAwesomeIcon icon={faArrowRight} />
                       </span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do.
+                      Coffee
                     </li>
                     <li>
                       <span className={arrow}>
                         <FontAwesomeIcon icon={faArrowRight} />
                       </span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do.
+                      Latin America
+                    </li>
+                    <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
+                      International Trade
+                    </li>
+                    <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
+                      Rural Development
+                    </li>
+                    <li>
+                      <span className={arrow}>
+                        <FontAwesomeIcon icon={faArrowRight} />
+                      </span>
+                      Tropical cash crops
                     </li>
                   </ul>
                 </Tab.Pane>
@@ -81,22 +123,19 @@ export default function WhatImOpenTo() {
                       <span className={arrow}>
                         <FontAwesomeIcon icon={faArrowRight} />
                       </span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do.
+                      International Trade
                     </li>
                     <li>
                       <span className={arrow}>
                         <FontAwesomeIcon icon={faArrowRight} />
                       </span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do.
+                      Rural development
                     </li>
                     <li>
                       <span className={arrow}>
                         <FontAwesomeIcon icon={faArrowRight} />
                       </span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do.
+                      Tropical
                     </li>
                   </ul>
                 </Tab.Pane>

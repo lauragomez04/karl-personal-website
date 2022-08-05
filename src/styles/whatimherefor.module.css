@@ -32,6 +32,12 @@
   transition: all 200ms ease-in-out;
 }
 
+.carouselText {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
+
 @media (max-width: 960px) {
   .whatImHereFor h3 {
     margin-bottom: 88px;

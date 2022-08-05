@@ -9,6 +9,7 @@ import {
   whatImHereFor,
   experienceBtn,
   check,
+  carouselText,
 } from "../styles/whatimherefor.module.css"
 
 export default function WhatImHereFor() {
@@ -22,9 +23,9 @@ export default function WhatImHereFor() {
             </h3>
           </Col>
           <Col sm={6}>
-            <Carousel>
+            <Carousel variant="dark">
               <Carousel.Item>
-                <p>
+                <p className={carouselText}>
                   <span className={check}>
                     <FontAwesomeIcon icon={faCheck} />
                   </span>
