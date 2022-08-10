@@ -1,14 +1,9 @@
 import React from "react"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
-import { faCheck } from "@fortawesome/free-solid-svg-icons"
-import { Container, Row, Col, Button } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import Carousel from "react-bootstrap/Carousel"
 import {
   whatImHereFor,
-  experienceBtn,
-  check,
   textContainer,
 } from "../styles/whatimherefor.module.css"
 
