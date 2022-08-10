@@ -26,9 +26,6 @@ export default function WhatImHereFor() {
             <Carousel variant="dark">
               <Carousel.Item>
                 <p className={textContainer}>
-                  <span className={check}>
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
                   To solve mysteries: To alter the collective understanding of
                   the problems that society and the planet face in a helpful
                   way.
@@ -36,9 +33,6 @@ export default function WhatImHereFor() {
               </Carousel.Item>
               <Carousel.Item>
                 <p className={textContainer}>
-                  <span className={check}>
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
                   To support efforts toward community-driven development of
                   equitable and socially acceptable alternatives to structures
                   that engender inequity and marginalization.
@@ -46,9 +40,6 @@ export default function WhatImHereFor() {
               </Carousel.Item>
               <Carousel.Item>
                 <p className={textContainer}>
-                  <span className={check}>
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
                   To facilitate rural people’s ability to meet their needs
                   through their life projects in ways that are comfortable and
                   culturally acceptable (buen vivir), especially those in the
@@ -57,9 +48,6 @@ export default function WhatImHereFor() {
               </Carousel.Item>
               <Carousel.Item>
                 <p className={textContainer}>
-                  <span className={check}>
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
                   To use economic methods and analysis in a social science
                   context and collaborate with other social scientists to
                   achieve the above.
@@ -67,9 +55,6 @@ export default function WhatImHereFor() {
               </Carousel.Item>
               <Carousel.Item>
                 <p className={textContainer}>
-                  <span className={check}>
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
                   To bridge the gap between research and practice based on my
                   practical experience and training and subsequent research
                   focus, conducting practically-relevant and applicable research
@@ -78,12 +63,6 @@ export default function WhatImHereFor() {
                 </p>
               </Carousel.Item>
             </Carousel>
-            <Button className={experienceBtn}>
-              My Experience{" "}
-              <span className="ps-1">
-                <FontAwesomeIcon icon={faLinkedinIn} />
-              </span>
-            </Button>
           </Col>
         </Row>
       </Container>
