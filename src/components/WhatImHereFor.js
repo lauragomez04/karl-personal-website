@@ -9,7 +9,7 @@ import {
   whatImHereFor,
   experienceBtn,
   check,
-  carouselText,
+  textContainer,
 } from "../styles/whatimherefor.module.css"
 
 export default function WhatImHereFor() {
@@ -17,15 +17,15 @@ export default function WhatImHereFor() {
     <section className={whatImHereFor}>
       <Container>
         <Row className="d-flex align-items-start">
-          <Col sm={6}>
+          <Col sm={5}>
             <h3>
               WHAT I'M <br /> HERE FOR
             </h3>
           </Col>
-          <Col sm={6}>
+          <Col sm={7}>
             <Carousel variant="dark">
               <Carousel.Item>
-                <p className={carouselText}>
+                <p className={textContainer}>
                   <span className={check}>
                     <FontAwesomeIcon icon={faCheck} />
                   </span>
@@ -35,7 +35,7 @@ export default function WhatImHereFor() {
                 </p>
               </Carousel.Item>
               <Carousel.Item>
-                <p>
+                <p className={textContainer}>
                   <span className={check}>
                     <FontAwesomeIcon icon={faCheck} />
                   </span>
@@ -45,7 +45,7 @@ export default function WhatImHereFor() {
                 </p>
               </Carousel.Item>
               <Carousel.Item>
-                <p>
+                <p className={textContainer}>
                   <span className={check}>
                     <FontAwesomeIcon icon={faCheck} />
                   </span>
@@ -56,7 +56,7 @@ export default function WhatImHereFor() {
                 </p>
               </Carousel.Item>
               <Carousel.Item>
-                <p>
+                <p className={textContainer}>
                   <span className={check}>
                     <FontAwesomeIcon icon={faCheck} />
                   </span>
@@ -66,7 +66,7 @@ export default function WhatImHereFor() {
                 </p>
               </Carousel.Item>
               <Carousel.Item>
-                <p>
+                <p className={textContainer}>
                   <span className={check}>
                     <FontAwesomeIcon icon={faCheck} />
                   </span>

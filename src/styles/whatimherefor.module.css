@@ -32,10 +32,10 @@
   transition: all 200ms ease-in-out;
 }
 
-.carouselText {
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 80px;
+.textContainer {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 960px) {
