@@ -31,10 +31,6 @@
   line-height: 28px;
 }
 
-.tabText ul {
-  list-style: none;
-}
-
 .tabText .arrow {
   color: var(--highlight-color);
   padding-right: 16px;
