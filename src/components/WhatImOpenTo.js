@@ -22,19 +22,16 @@ export default function WhatImOpenTo() {
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Speaking</Nav.Link>
+                  <Nav.Link eventKey="third">Consulting</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="fourth">Consulting</Nav.Link>
+                  <Nav.Link eventKey="fourth">Speaking</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="fifth">Speaking</Nav.Link>
+                  <Nav.Link eventKey="fifth">Teaching</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="sixth">Teaching</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="seventh">Advisory</Nav.Link>
+                  <Nav.Link eventKey="sixth">Advisory</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Col>
