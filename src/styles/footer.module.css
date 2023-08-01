@@ -52,5 +52,12 @@ small {
 
   .footerSection a {
     padding-top: 16px;
+    padding-left: 0px;
+    padding-right: 8px;
+  }
+
+  .footerSection {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }

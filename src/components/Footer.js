@@ -18,7 +18,7 @@ export default function Footer() {
             </small>
           </Col>
           <Col sm={7}>
-            <Nav className="justify-content-end">
+            <Nav className="justify-content-md-end justify-content-sm-start">
               <Nav.Link href="#research-projects">
                 Research &amp; Projects
               </Nav.Link>
